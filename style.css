@@ -22,7 +22,7 @@ h1
     font-size: 100px;
 }
 
-div
+.general
 {
     text-align: center;
     padding: 20px;
@@ -72,4 +72,10 @@ img
 .green
 {
     color: green;
+}
+
+.card
+{
+    background-color: lightblue;
+    border-color: blue;
 }

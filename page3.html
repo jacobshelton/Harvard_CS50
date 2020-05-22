@@ -8,19 +8,36 @@
     <body>
         <h1 id="blue">Here are some images!</h1>
 
-        <div>
-            click image to be routed to home page
-            <a href="home.html"><img src="Darth_Vader.jpg"></a>
-        </div>
-
-        <div>
-            click image to be routed to list of pages
-            <a href="page1.html"><img src="Goku.jpg"></a>
-        </div>
-
-        <div class="green">
-            click image to be routed to table
-            <a href="page2.html"><img src="Spider-Man.jpg"></a>
-        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <div class="card">
+                    <img src="Darth_Vader.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Darth Vader</h5>
+                      <a href="home.html" class="btn btn-primary">Home</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card">
+                    <img src="Spider-Man.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Spider-Man</h5>
+                      <a href="page1.html" class="btn btn-primary">List</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card">
+                    <img src="Goku.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Goku</h5>
+                      <a href="#" class="btn btn-primary">Table</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
     </body>
 </html>
